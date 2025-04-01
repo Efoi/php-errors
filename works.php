@@ -6,7 +6,27 @@
     Fra php:
     <?php
 
-echo "Hello world."
+echo "Hello world.";
+function hello($name) {
+    echo "Hello, $name!";
+}
+## Her er en kommentar til aritmetikkfunksjoner:
+function add($a, $b) {
+    return $a + $b;
+}
+function subtract($a, $b) {
+    return $a - $b;
+}
+function multiply($a, $b) {
+    return $a * $b;
+}
+function divide($a, $b) {
+    if ($b == 0) {
+        echo "Error: Division by zero.";
+    } else {
+        return $a / $b;
+    }
+}
 ?>
     <h1>Diverse linker til feilsider</h1>
 <p><a href="error-arithmetic.php">error-arithmetic.php</a></p>
@@ -31,5 +51,6 @@ echo "Hello world."
 <p><a href="error-user-notice.php">error-user-notice.php</a></p>
 <p><a href="error-user-warning.php">error-user-warning.php</a></p>
 <p><a href="error-warning.php">error-warning.php</a></p>
+
 </body>
 </html>
