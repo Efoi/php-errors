@@ -28,7 +28,7 @@ function divide($a, $b) {
     }
 }
 ?>
-    <h1>Diverse linker til feilsider</h1>
+    <h1>Diverse linker til feilsider - OPPDATERT liste.</h1>
 <p><a href="error-arithmetic.php">error-arithmetic.php</a></p>
 <p><a href="error-assertion.php">error-assertion.php</a></p>
 <p><a href="error-compile-error.php">error-compile-error.php</a></p>
